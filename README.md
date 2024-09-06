@@ -31,7 +31,7 @@ Os tokens são palavras-chaves que devem ser inderidas no campo de token para de
 
 Acesse o Token+ Elements no link abaixo:
 
-[Plann.er](https://udanielnogueira.github.io/nlw-journey-fullstack/)
+[Token+ Elements](https://udanielnogueira.github.io/token-elements/)
 
 <h2 id="preview">Preview</h2>
 
