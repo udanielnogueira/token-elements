@@ -15,8 +15,8 @@
 - [Deploy](#deploy)
 - [Preview](#preview)
 - [Tecnologias](#built-with)
-- [Etapas de Criação](#developing)
 - [Funcionalidades](#key-features)
+- [Etapas de Criação](#developing)
 - [Destaques](#highlights)
 - [Meu Contato](#contact)
 
@@ -49,6 +49,12 @@ Mobile Preview
 - JavaScript
 - HTML
 - CSS
+
+<h2 id="key-features">Funcionalidades</h2>
+
+- [x] Inserir/Clicar em um token
+- [x] Visualizar elementos do token escolhido
+- [x] Visualizar o código HTML e CSS do elemento
 
 <h2 id="developing">Etapas de Criação</h2>
 
@@ -143,12 +149,6 @@ A função `setTimeout` foi a função sugerida pelo Gemini para realizar tal fe
 ```
 Como seria um código html com js para que eu exibisse uma tela de carregamento e depois abrisse a página principal?
 ```
-
-<h2 id="key-features">Funcionalidades</h2>
-
-- [x] Inserir/Clicar em um token
-- [x] Visualizar elementos do token escolhido
-- [x] Visualizar o código HTML e CSS do elemento
 
 <h2 id="highlights">Destaques</h2>
 
