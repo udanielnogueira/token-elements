@@ -71,7 +71,7 @@ Como fazer um elemento dentro de um container com display: grid ocupar todo o es
 ```
 
 ```
-Como centralizar um elementos que pertencem a um container definido como display grid?
+Como centralizar elementos que pertencem a um container definido como display grid?
 ```
 
 ### Segunda Etapa: Criação do Script Inicial
