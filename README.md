@@ -12,11 +12,11 @@
 ## Sumário
 
 - [Sobre](#about)
-- [Deploy](#deploy)
 - [Preview](#preview)
 - [Tecnologias](#built-with)
 - [Funcionalidades](#key-features)
-- [Etapas de Criação](#developing)
+<!-- - [Etapas de Criação](#developing) -->
+- [Deploy](#deploy)
 - [Destaques](#highlights)
 - [Meu Contato](#contact)
 
@@ -25,10 +25,6 @@
 O Token+ Elements auxilia no processo de inspiração e busca de elementos interativos para a sua aplicação Web. Insira ou clique em um token, escolha seu preferido e veja o código HTML e CSS dele.
 
 <img src="./assets/img/token-mockup.jpg">
-
-<h2 id="deploy">Deploy</h2>
-
-[Token+ Elements](https://udanielnogueira.github.io/token-elements/)
 
 <h2 id="preview">Preview</h2>
 
@@ -56,7 +52,11 @@ Mobile Preview
 - [x] Visualizar elementos do token escolhido
 - [x] Visualizar o código HTML e CSS do elemento
 
-<h2 id="developing">Etapas de Criação</h2>
+<h2 id="deploy">Deploy</h2>
+
+[Token+ Elements](https://udanielnogueira.github.io/token-elements/)
+
+<!-- <h2 id="developing">Etapas de Criação</h2>
 
 ### Primeira Etapa: Criação do HTML e CSS
 
@@ -148,7 +148,7 @@ A função `setTimeout` foi a função sugerida pelo Gemini para realizar tal fe
 
 ```
 Como seria um código html com js para que eu exibisse uma tela de carregamento e depois abrisse a página principal?
-```
+``` -->
 
 <h2 id="highlights">Destaques</h2>
 
