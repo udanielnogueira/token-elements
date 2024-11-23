@@ -152,7 +152,7 @@ Como seria um código html com js para que eu exibisse uma tela de carregamento 
 
 <h2 id="highlights">Destaques</h2>
 
-Simulação de tela de carregamento
+Criação de tela de carregamento
 
 ```html
 <div class="loading">
