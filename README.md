@@ -15,10 +15,10 @@
 - [Preview](#preview)
 - [Tecnologias](#built-with)
 - [Funcionalidades](#key-features)
-<!-- - [Etapas de Criação](#developing) -->
 - [Deploy](#deploy)
 - [Destaques](#highlights)
 - [Meu Contato](#contact)
+<!-- - [Etapas de Criação](#developing) -->
 
 <h2 id="about">Sobre</h2>
 
