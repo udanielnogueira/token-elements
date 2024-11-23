@@ -48,7 +48,7 @@ Mobile Preview
 
 <h2 id="key-features">Funcionalidades</h2>
 
-- [x] Inserir/Clicar em um token
+- [x] Inserir ou clicar em um token
 - [x] Visualizar elementos do token escolhido
 - [x] Visualizar código HTML e CSS do elemento
 
