@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>🐬 <br>Token+ Elements</h1>
-  <p>Elementos em HTML e CSS a um token de distância. Basta digitar o token dos elementos que deseja explorar e pronto... Isso é 🐬Token+ Elements.</p>
+  <h1>🐬 Token+ Elements</h1>
   <img src="https://img.shields.io/github/languages/count/udanielnogueira/token-elements">
   <img src="https://img.shields.io/github/languages/top/udanielnogueira/token-elements">
   <img src="https://img.shields.io/github/languages/code-size/udanielnogueira/token-elements">
   <img src="https://img.shields.io/github/last-commit/udanielnogueira/token-elements">
   <img src="https://img.shields.io/github/deployments/udanielnogueira/token-elements/github-pages">
   <img src="https://img.shields.io/badge/responsive-yes-ff69b4">
+  <p>Elementos em HTML e CSS a um token de distância, isso é 🐬Token+ Elements.</p>
 </div>
 
 ## Sumário
@@ -24,33 +24,31 @@
 
 <img src="./assets/img/token-mockup.jpg">
 
-O Token+ Elements te ajuda no processo de inspiração e busca de elementos interativos para a sua aplicação web.
-
-Insira ou clique em um token, veja elementos incríveis aparecendo na sua tela e clique no seu preferido para ver o código HTML e CSS dele.
+O Token+ Elements auxilia no processo de inspiração e busca de elementos interativos para a sua aplicação web. Insira ou clique em um token, veja elementos incríveis aparecendo na sua tela e clique no seu preferido para ver o código HTML e CSS dele.
 
 <h2 id="deploy">Deploy</h2>
-
-Acesse o Token+ Elements no link abaixo:
 
 [Token+ Elements](https://udanielnogueira.github.io/token-elements/)
 
 <h2 id="preview">Preview</h2>
 
-Desktop
+Desktop Preview
 
 <img src="./assets/img/token-desktop-1.png">
 <img src="./assets/img/token-desktop-2.png">
 
-Mobile
+<br>
+
+Mobile Preview
 
 <img src="./assets/img/token-mobile-1.png">
 <img src="./assets/img/token-mobile-2.png">
 
 <h2 id="built-with">Tecnologias</h2>
 
-- CSS
-- HTML
 - JavaScript
+- HTML
+- CSS
 
 <h2 id="developing">Etapas de Criação</h2>
 
@@ -148,13 +146,13 @@ Como seria um código html com js para que eu exibisse uma tela de carregamento 
 
 <h2 id="key-features">Funcionalidades</h2>
 
-- [x] Inserir ou clicar em um token
+- [x] Inserir/Clicar em um token
 - [x] Visualizar elementos do token escolhido
 - [x] Visualizar o código HTML e CSS do elemento
 
 <h2 id="highlights">Destaques</h2>
 
-Criação de uma div que simula uma tela de carregamento.
+Simulação de tela de carregamento
 
 ```html
 <div class="loading">
@@ -192,7 +190,7 @@ function carregar() {
 
 <br>
 
-Injeções de HTML com JavaScript
+Inserções de HTML via JavaScript
 
 ```js
 function exibirObjetoBtn() {
