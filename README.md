@@ -50,7 +50,7 @@ Mobile Preview
 
 - [x] Inserir/Clicar em um token
 - [x] Visualizar elementos do token escolhido
-- [x] Visualizar o código HTML e CSS do elemento
+- [x] Visualizar código HTML e CSS do elemento
 
 <h2 id="deploy">Deploy</h2>
 
