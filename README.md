@@ -22,7 +22,7 @@
 
 <h2 id="about">Sobre</h2>
 
-O Token+ Elements auxilia no processo de inspiração e busca de elementos interativos para a sua aplicação Web. Insira ou clique em um token, escolha seu preferido e veja o código HTML e CSS dele.
+Insira ou clique em um token, escolha seu preferido e veja o código HTML e CSS dele.
 
 <img src="./assets/img/token-mockup.jpg">
 
