@@ -408,7 +408,7 @@ footer {
   flex-direction: column;
   justify-content: center;
 
-  font-weight: 200;
+  font-weight: 300;
   user-select: none;
   margin-bottom: 4rem;
   max-width: var(--max-width);
@@ -416,8 +416,8 @@ footer {
 }
 
 footer a {
-  text-decoration: none;
   color: var(--text-color);
+  text-decoration: underline;
 }
 
 footer a:hover {
