@@ -54,7 +54,7 @@ Mobile Preview
 
 <h2 id="deploy">Deploy</h2>
 
-[Token+ Elements](https://udanielnogueira.github.io/token-elements/)
+[Token+ Elements](https://token-elements.vercel.app/)
 
 <!-- <h2 id="developing">Etapas de Criação</h2>
 
@@ -163,27 +163,27 @@ Criação de tela de carregamento
 
 ```js
 function carregar() {
-  const loading = document.querySelector(".loading");
-  const container = document.querySelector(".container");
-  const loading__text = document.querySelector(".loading__text");
+  const loading = document.querySelector('.loading');
+  const container = document.querySelector('.container');
+  const loading__text = document.querySelector('.loading__text');
 
   setTimeout(esconder, 1490);
   function esconder() {
-    loading.style.display = "none";
+    loading.style.display = 'none';
   }
 
   setTimeout(exibir, 1500);
   function exibir() {
-    container.style.display = "grid";
+    container.style.display = 'grid';
   }
 
-  loading__text.innerText = "Um elemento?";
+  loading__text.innerText = 'Um elemento?';
   setTimeout(() => {
-    loading__text.innerText = "Calma aí...";
+    loading__text.innerText = 'Calma aí...';
   }, 800);
 
   function esconder() {
-    loading.style.display = "none";
+    loading.style.display = 'none';
   }
 }
 ```
@@ -224,8 +224,8 @@ function exibirObjetoBtn() {
 Event Listener da tecla ENTER no campo de Token
 
 ```js
-input.addEventListener("keypress", function (event) {
-  if (event.key === "Enter") {
+input.addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') {
     exibirElementos();
   }
 });
