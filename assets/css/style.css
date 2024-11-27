@@ -424,7 +424,24 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 1000px) {
+  .container {
+    animation: none;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateY(20rem);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .elements {
+    animation: slidein 2.4s ease-in-out;
+  }
+
   body {
     margin: 1.2rem;
     background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d);
@@ -503,6 +520,7 @@ footer a:hover {
     margin: 1.2rem;
     background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d);
   }
+
   .elements__items {
     width: 100%;
     display: grid;
