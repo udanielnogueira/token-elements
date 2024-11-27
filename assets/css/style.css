@@ -244,9 +244,9 @@ input {
   text-decoration: none;
 
   border: none;
+  background-color: #101010;
   font-size: var(--small-size);
   box-shadow: var(--box-shadow-gray);
-  background-color: var(--dark-color-1);
 }
 
 button {
