@@ -187,6 +187,7 @@ header {
   text-align: center;
   gap: var(--section-gap);
 
+  justify-items: center;
   max-width: var(--max-width-2);
   margin-bottom: var(--section-margin-bottom);
 }
@@ -203,11 +204,18 @@ header {
 }
 
 .hero__text {
+  width: 48rem;
   font-weight: 300;
+  line-height: 2.4rem;
 }
 
 input {
   all: unset;
+}
+
+.hero__field {
+  gap: 1.2rem;
+  display: flex;
 }
 
 .hero__input {
@@ -215,7 +223,7 @@ input {
   padding-left: 2rem;
   border-radius: 2.4rem;
 
-  width: 32rem;
+  width: 16rem;
   text-align: left;
   border-style: none;
   text-decoration: none;
@@ -234,7 +242,7 @@ button {
   width: 16rem;
   cursor: pointer;
   font-weight: 800;
-  border-radius: 0.4rem;
+  border-radius: 2.4rem;
 
   height: 4rem;
   color: var(--back-color);
@@ -282,9 +290,8 @@ button {
 }
 
 .tokens__elements {
-  gap: 2rem;
+  gap: 1.6rem;
   display: flex;
-  gap: var(--section-gap);
 }
 
 .tokens__element {
@@ -424,7 +431,11 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
+  header {
+    animation: none;
+  }
+
   .container {
     animation: none;
   }
@@ -457,12 +468,7 @@ footer a:hover {
   }
 
   .tokens__elements {
-    width: 100%;
-    gap: 0.8rem;
-  }
-
-  .tokens__element {
-    width: 100%;
+    justify-content: center;
   }
 
   .hero__field {
@@ -477,25 +483,28 @@ footer a:hover {
 
   .hero__input {
     padding: 0;
-    width: 100%;
+    width: 24rem;
     text-align: center;
   }
 
   .hero__btn {
-    width: 100%;
+    width: 24rem;
   }
 
   .elements__title {
+    width: 30rem;
     text-align: center;
-    font-size: var(--heading-2-size);
+    font-size: 2.4rem;
   }
 
   .hero__text {
-    font-size: var(--small-size);
+    width: 40rem;
+    font-size: 1.6rem;
   }
 
   .hero {
-    gap: 2rem;
+    align-items: center;
+    justify-items: center;
   }
 
   .tokens {
@@ -503,7 +512,8 @@ footer a:hover {
   }
 
   .hero__headline {
-    font-size: 4rem;
+    width: 48rem;
+    font-size: 4.8rem;
   }
 
   .hero,
@@ -515,7 +525,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   body {
     margin: 1.2rem;
     background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d);
@@ -535,10 +545,6 @@ footer a:hover {
     gap: 0.8rem;
   }
 
-  .tokens__element {
-    width: 100%;
-  }
-
   .hero__field {
     width: 100%;
 
@@ -553,24 +559,17 @@ footer a:hover {
 
   .hero__input {
     padding: 0;
-    width: 100%;
-    text-align: center;
-  }
 
-  .hero__btn {
-    width: 100%;
-  }
-
-  .elements__title {
     text-align: center;
-    font-size: var(--heading-2-size);
   }
 
   .hero__text {
+    width: 36rem;
     font-size: var(--small-size);
   }
 
   .hero__headline {
+    width: auto;
     font-size: 4rem;
   }
 
