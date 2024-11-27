@@ -148,7 +148,7 @@ video {
   display: none;
   place-items: center;
 
-  animation: fade-in 3s;
+  animation: fade-in 2.4s;
   grid-template-columns: 1fr;
   max-width: var(--max-width-1);
 }
