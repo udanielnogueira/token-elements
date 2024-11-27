@@ -156,7 +156,7 @@ video {
 @keyframes fade-in {
   from {
     opacity: 0;
-    filter: blur(0.4rem);
+    filter: blur(0.16rem);
   }
 }
 
