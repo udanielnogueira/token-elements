@@ -391,7 +391,7 @@ button {
   height: 24rem;
   cursor: pointer;
   border-radius: 0.8rem;
-  background-color: #171717;
+  background-color: #101010;
 
   transition: transform 700ms;
   box-shadow: var(--box-shadow-gray);
