@@ -72,12 +72,27 @@ html {
 body {
   margin: 0 2rem;
   font-style: normal;
+  color: var(--text-color);
   font-size: var(--body-1-size);
   font-family: 'Inter', sans-serif;
 
-  color: var(--text-color);
-  background-color: var(--back-color);
-  background: linear-gradient(to top right, var(--back-color) 85%, var(--blue), var(--green));
+  background-size: 32px 32px;
+  background-color: #09090b;
+  background-image: radial-gradient(#101010 2px, transparent 2px);
+
+  /* background-color: var(--back-color); */
+  /* background: linear-gradient(to top right, var(--back-color) 85%, var(--blue), var(--green)); */
+
+  /* animation: move-right 4s linear infinite; */
+}
+
+@keyframes move-right {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 32px 0;
+  }
 }
 
 body::-webkit-scrollbar {
@@ -455,7 +470,7 @@ footer a:hover {
 
   body {
     margin: 1.2rem;
-    background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d);
+    /* background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d); */
   }
 
   .elements__items {
@@ -528,7 +543,7 @@ footer a:hover {
 @media (max-width: 500px) {
   body {
     margin: 1.2rem;
-    background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d);
+    /* background: linear-gradient(to top right, var(--back-color) 90%, #00c9ff, #92fe9d); */
   }
 
   .elements__items {
