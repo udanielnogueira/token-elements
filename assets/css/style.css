@@ -84,7 +84,7 @@ body {
 }
 
 .--dot-background {
-  background-size: 20px 20px;
+  background-size: 40px 40px;
   background-color: #09090b;
   background-image: radial-gradient(#101010 2px, transparent 2px);
 }
