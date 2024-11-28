@@ -14,9 +14,9 @@ function carregar() {
     container.style.display = 'grid';
   }
 
-  loading__text.innerText = 'Um elemento?';
+  loading__text.innerText = 'Roi, vem sempre aqui? 😏';
   setTimeout(() => {
-    loading__text.innerText = 'Calma aí...';
+    loading__text.innerText = 'Cof cof... bem-vindo(a)!';
   }, 800);
 
   function esconder() {
