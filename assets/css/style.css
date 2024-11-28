@@ -75,15 +75,18 @@ body {
   color: var(--text-color);
   font-size: var(--body-1-size);
   font-family: 'Inter', sans-serif;
-
-  background-size: 32px 32px;
-  background-color: #09090b;
-  background-image: radial-gradient(#101010 2px, transparent 2px);
+  background-color: var(--back-color);
 
   /* background-color: var(--back-color); */
   /* background: linear-gradient(to top right, var(--back-color) 85%, var(--blue), var(--green)); */
 
   /* animation: move-right 4s linear infinite; */
+}
+
+.--dot-background {
+  background-size: 20px 20px;
+  background-color: #09090b;
+  background-image: radial-gradient(#101010 2px, transparent 2px);
 }
 
 @keyframes move-right {
