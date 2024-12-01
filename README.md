@@ -24,13 +24,15 @@
 
 Insira ou clique em um token, escolha seu elemento preferido e veja o código HTML e CSS dele.
 
-<img src="./assets/img/token-mockup.jpg">
+<img src="./assets/img/mockup.jpg">
 
 <h2 id="preview">Preview</h2>
 
 Desktop Preview
 
-<img src="./assets/img/desktop-preview.png">
+<img src="./assets/img/desktop-preview-1.png">
+
+<img src="./assets/img/desktop-preview-2.png">
 
 <br>
 
