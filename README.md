@@ -30,15 +30,15 @@ Insira ou clique em um token, escolha seu elemento preferido e veja o código HT
 
 Desktop Preview
 
-<img src="./assets/img/token-desktop-1.png">
-<img src="./assets/img/token-desktop-2.png">
+<img src="./assets/img/desktop-preview.png">
 
 <br>
 
 Mobile Preview
 
-<img src="./assets/img/token-mobile-1.png">
-<img src="./assets/img/token-mobile-2.png">
+<img src="./assets/img/mobile-preview-1.png">
+
+<img src="./assets/img/mobile-preview-2.png">
 
 <h2 id="built-with">Tecnologias</h2>
 
